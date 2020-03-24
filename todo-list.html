@@ -36,7 +36,7 @@
                 v-for="item in list"
                 v-bind:todo="item"
                 v-bind:key="item.id"
-                @remove="removeTodo"
+                @complete="completeTodo"
             >
                 
             </todo-item>
